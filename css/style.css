@@ -1,0 +1,62 @@
+
+@font-face {
+  font-family: "SaintRegusSemiBoldCondensed";
+  src: url('webFonts/SaintRegusSemiBoldCondensed/font.woff2') format('woff2'), url('webFonts/SaintRegusSemiBoldCondensed/font.woff') format('woff');
+}
+
+h1,p,h2,h3,h4,h5,h6,span{
+    font-family: "SaintRegusSemiBoldCondensed";
+   font-weight: bolder;
+}
+body{
+  overflow: hidden;
+}
+.dropv{
+  left: -220px;
+
+}
+.load{
+  display: flex;
+}
+.loadsearch{
+display: none;
+}
+
+.bbg{
+  
+  position: relative;
+  background-image: url('../img/backo.jpg');
+  background-size: cover;
+  background-position: center;
+}
+.pp{
+  display: none;
+  cursor: pointer;
+}
+li{
+  display: none;
+}
+
+.bh{ 
+      width: 100%;
+   
+      top:100%;
+      left: 0%;
+    background-color: rgba(255, 255, 255, 0.7);
+    transition-duration: 0.5s;
+}
+.hat{
+
+  font-size: 14px;
+}
+
+.bbg:hover .bh{
+
+    top: 0%;
+}
+
+.look{
+
+  cursor: pointer;
+}
+
