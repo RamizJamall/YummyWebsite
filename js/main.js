@@ -228,7 +228,7 @@ function displayArea(){
 
  
   for(var i=0 ;i < allareas.meals.length; i++){
-    console.log("a7a");
+
     $('.cards').append(`
 
     <div class=" col-lg-3 col-md-3 col-sm-12 pp">
